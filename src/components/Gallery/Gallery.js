@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { sculptureList } from '../../data/data';
+import { sculptureList } from '../../../public/data/data';
 
 export default function Gallery() {
   const [index, setIndex] = useState(0);
